@@ -1,0 +1,53 @@
+/* Structure and layout
+--------------------------------------------- */
+
+.site {
+	position:relative;
+	display:block;
+	margin: 0 auto;
+}
+
+.site-header{
+	position:relative;
+	display:block;
+	clear:both;
+	width:100%;
+	padding:20px;
+	
+	.site-branding{
+	}
+	
+	.main-navigation{
+	}
+}
+
+.site-content{
+	position:relative;
+	display:block;
+	clear:both;
+	margin: 0 auto;
+	max-width:90%;
+	
+	.content-area{
+		position:relative;
+		display:block;
+		
+		.site-main {
+			position:relative;
+			display:block;
+		}
+		
+	}
+	
+	.widget-area{
+		position:relative;
+		display:block;
+	}
+}
+
+.site-footer{
+	position:relative;
+	display:block;
+	clear:both;
+	width:100%;
+}

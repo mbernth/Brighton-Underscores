@@ -1,0 +1,120 @@
+/*
+Theme Name: Brighton
+Theme URI: http://www.monovoce.com/
+Author: mono voce aps
+Author URI: http://www.monovoce.com/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: brighton
+Tags:
+
+The theme uses Normalize v4.1.1 https://necolas.github.io/normalize.css/
+*/
+
+/* Basics =================================================== */
+
+/* 1. ROOT 					============================== */
+/* 2. TYPOGRAPHY 			============================== */
+/* 3. TABLES 				============================== */
+/* 4. FORMS 				============================== */
+/* 5. COLOURS 				============================== */
+/* 6. BUTTONS 				============================== */
+/* 7. UNITS 				============================== */
+/* 8. WIDGETS 				============================== */
+/* 9. NAVIGATION			============================== */
+/* 10. GRIDSET				============================== */
+/* 11. LAYOUT 				============================== */
+/* 12. VENDOR-SPECIFIC 		============================== */
+/* 13. MODERNIZR 			============================== */
+/* 14. TEMPLATE SPECIFICS 	============================== */
+/* 15. MICROSOFT			============================== */
+
+
+/* Table of Contents
+===================================================
+
+	- HTML5 Reset
+		- Normalize v4.1.1
+		- Box Sizing
+		- Float Clearing 
+		- Accessibility
+		- Mixins */
+	@import "normalize";
+	@import "boxfloats";
+	@import "accessibility";
+	
+/*	- Defaults
+		- Typographical Elements
+		- Headings
+		- Objects
+		- Gallery
+		- Forms
+		- Buttons
+		- Tables */
+		
+/*	- Structure and Layout
+		- Site Containers
+		- Column Widths and Positions
+		- Column Classes */
+	@import "structure_layout";
+		
+/*	- Common Classes
+		- Avatar
+		- Genesis
+		- Search Form
+		- Titles
+		- WordPress */
+		
+/*	- Widgets
+		- Simple Social Icons */
+		
+/*	- Plugins
+		- Genesis eNews Extended
+		- Jetpack */
+		
+/*	- Site Header
+		- Title Area
+		- Widget Area */
+		
+/*	- Site Navigation
+		- Header Navigation
+		- Primary Navigation
+		- Secondary Navigation
+		- Responsive Menu */
+	@import "site_navigation";
+		
+/*	- Content Area
+		- Homepage
+		- Pricing Table
+		- Content
+		- Entries
+		- Entry Meta
+		- After Entry
+		- Pagination
+		- Content Boxes
+		- Comments */
+		
+/*	- Sidebar */
+		
+/*	- Footer Widgets */
+		
+/*	- Site Footer */
+		
+/*	- Theme Colors
+		- Parallax Pro Blue
+		- Parallax Pro Green
+		- Parallax Pro Orange
+		- Parallax Pro Pink */
+
+/*	- MSIE 8 fallback */
+		
+/*	- Media Queries
+		- Retina Display */
+/*		- Max-width: 1139px */
+/*		- Max-width: 1139px */
+/*		- Max-width: 1023px */
+/*		- Max-width: 960px */
+/*		- Max-width: 768px */
+/*		- Max-width: 480px */
